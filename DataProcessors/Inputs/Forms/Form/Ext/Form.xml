@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Group1" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full Layout / Stacked Labels</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group1ExtendedTooltip" id="5"/>
+			<ChildItems>
+				<UsualGroup name="Line1" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Line1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Line1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line1ExtendedTooltip" id="10"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration1" id="11">
+							<Picture>
+								<xr:Ref>StdPicture.Change</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration1ContextMenu" id="12"/>
+							<ExtendedTooltip name="Decoration1ExtendedTooltip" id="13"/>
+						</PictureDecoration>
+						<InputField name="Name" id="1">
+							<DataPath>Name</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your name</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="NameContextMenu" id="2"/>
+							<ExtendedTooltip name="NameExtendedTooltip" id="3"/>
+							<SelectedItemsActionsPanel name="NameSelectedItemsActionsPanel" id="189"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line2" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line2ExtendedTooltip" id="15"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration2" id="16">
+							<Picture>
+								<xr:Ref>StdPicture.Back</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration2ContextMenu" id="17"/>
+							<ExtendedTooltip name="Decoration2ExtendedTooltip" id="18"/>
+						</PictureDecoration>
+						<InputField name="Password" id="19">
+							<DataPath>Password</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<PasswordMode>true</PasswordMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your password</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="PasswordContextMenu" id="20"/>
+							<ExtendedTooltip name="PasswordExtendedTooltip" id="21"/>
+							<SelectedItemsActionsPanel name="PasswordSelectedItemsActionsPanel" id="190"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line3" id="22">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line3ExtendedTooltip" id="23"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration3" id="24">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration3ContextMenu" id="25"/>
+							<ExtendedTooltip name="Decoration3ExtendedTooltip" id="26"/>
+						</PictureDecoration>
+						<InputField name="Email" id="30">
+							<DataPath>Email</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>Email</SpecialTextInputMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your e-mail</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="EmailContextMenu" id="31"/>
+							<ExtendedTooltip name="EmailExtendedTooltip" id="32"/>
+							<SelectedItemsActionsPanel name="EmailSelectedItemsActionsPanel" id="191"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line4" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line4ExtendedTooltip" id="34"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration4" id="35">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration4ContextMenu" id="36"/>
+							<ExtendedTooltip name="Decoration4ExtendedTooltip" id="37"/>
+						</PictureDecoration>
+						<InputField name="URL" id="41">
+							<DataPath>URL</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>URL</SpecialTextInputMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>URL</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="URLContextMenu" id="42"/>
+							<ExtendedTooltip name="URLExtendedTooltip" id="43"/>
+							<SelectedItemsActionsPanel name="URLSelectedItemsActionsPanel" id="192"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line5" id="44">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line5ExtendedTooltip" id="45"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration5" id="46">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration5ContextMenu" id="47"/>
+							<ExtendedTooltip name="Decoration5ExtendedTooltip" id="48"/>
+						</PictureDecoration>
+						<InputField name="Phone" id="49">
+							<DataPath>Phone</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>PhoneNumber</SpecialTextInputMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your phone number</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="PhoneContextMenu" id="50"/>
+							<ExtendedTooltip name="PhoneExtendedTooltip" id="51"/>
+							<SelectedItemsActionsPanel name="PhoneSelectedItemsActionsPanel" id="193"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line6" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line6ExtendedTooltip" id="53"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration6" id="54">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration6ContextMenu" id="55"/>
+							<ExtendedTooltip name="Decoration6ExtendedTooltip" id="56"/>
+						</PictureDecoration>
+						<InputField name="Gender" id="57">
+							<DataPath>Gender</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<TextEdit>false</TextEdit>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Male</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Male</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Female</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Female</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="GenderContextMenu" id="58"/>
+							<ExtendedTooltip name="GenderExtendedTooltip" id="59"/>
+							<SelectedItemsActionsPanel name="GenderSelectedItemsActionsPanel" id="194"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line7" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line7ExtendedTooltip" id="61"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration7" id="62">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration7ContextMenu" id="63"/>
+							<ExtendedTooltip name="Decoration7ExtendedTooltip" id="64"/>
+						</PictureDecoration>
+						<InputField name="Birthday" id="65">
+							<DataPath>Birthday</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="BirthdayContextMenu" id="66"/>
+							<ExtendedTooltip name="BirthdayExtendedTooltip" id="67"/>
+							<SelectedItemsActionsPanel name="BirthdaySelectedItemsActionsPanel" id="195"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line8" id="68">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line8ExtendedTooltip" id="69"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration8" id="70">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration8ContextMenu" id="71"/>
+							<ExtendedTooltip name="Decoration8ExtendedTooltip" id="72"/>
+						</PictureDecoration>
+						<InputField name="DateTime" id="73">
+							<DataPath>DateTime</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="DateTimeContextMenu" id="74"/>
+							<ExtendedTooltip name="DateTimeExtendedTooltip" id="75"/>
+							<SelectedItemsActionsPanel name="DateTimeSelectedItemsActionsPanel" id="196"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line9" id="76">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line9ExtendedTooltip" id="77"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration9" id="78">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration9ContextMenu" id="79"/>
+							<ExtendedTooltip name="Decoration9ExtendedTooltip" id="80"/>
+						</PictureDecoration>
+						<TrackBarField name="Range" id="84">
+							<DataPath>Range</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<ContextMenu name="RangeContextMenu" id="85"/>
+							<ExtendedTooltip name="RangeExtendedTooltip" id="86"/>
+							<SelectedItemsActionsPanel name="RangeSelectedItemsActionsPanel" id="197"/>
+						</TrackBarField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line10" id="87">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line10ExtendedTooltip" id="88"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration10" id="89">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration10ContextMenu" id="90"/>
+							<ExtendedTooltip name="Decoration10ExtendedTooltip" id="91"/>
+						</PictureDecoration>
+						<InputField name="Textarea" id="92">
+							<DataPath>Textarea</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<Height>2</Height>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Bio</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="TextareaContextMenu" id="93"/>
+							<ExtendedTooltip name="TextareaExtendedTooltip" id="94"/>
+							<SelectedItemsActionsPanel name="TextareaSelectedItemsActionsPanel" id="198"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line11" id="95">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line11ExtendedTooltip" id="96"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration11" id="97">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration11ContextMenu" id="98"/>
+							<ExtendedTooltip name="Decoration11ExtendedTooltip" id="99"/>
+						</PictureDecoration>
+						<InputField name="Resizable" id="100">
+							<DataPath>Resizable</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Bio</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ResizableContextMenu" id="101"/>
+							<ExtendedTooltip name="ResizableExtendedTooltip" id="102"/>
+							<SelectedItemsActionsPanel name="ResizableSelectedItemsActionsPanel" id="199"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group2" id="103">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Validation + Additional Info</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group2ExtendedTooltip" id="104"/>
+			<ChildItems>
+				<UsualGroup name="Line12" id="105">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Line1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Line1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line12ExtendedTooltip" id="106"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration12" id="107">
+							<Picture>
+								<xr:Ref>StdPicture.Change</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration12ContextMenu" id="108"/>
+							<ExtendedTooltip name="Decoration12ExtendedTooltip" id="109"/>
+						</PictureDecoration>
+						<InputField name="Name1" id="110">
+							<DataPath>Name</DataPath>
+							<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+							<TitleLocation>Top</TitleLocation>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your name</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="Name1ContextMenu" id="111"/>
+							<ExtendedTooltip name="Name1ExtendedTooltip" id="112">
+								<Font ref="style:FieldTitleFont" kind="StyleItem"/>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Default validation</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+							<SelectedItemsActionsPanel name="Name1SelectedItemsActionsPanel" id="200"/>
+							<Events>
+								<Event name="OnChange">Name1OnChange</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group3" id="113">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Icon + Input</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group3ExtendedTooltip" id="114"/>
+			<ChildItems>
+				<UsualGroup name="Line13" id="115">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Line1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Line1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line13ExtendedTooltip" id="116"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration13" id="117">
+							<Picture>
+								<xr:Ref>StdPicture.Change</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration13ContextMenu" id="118"/>
+							<ExtendedTooltip name="Decoration13ExtendedTooltip" id="119"/>
+						</PictureDecoration>
+						<InputField name="Name2" id="120">
+							<DataPath>Name</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your name</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="Name2ContextMenu" id="121"/>
+							<ExtendedTooltip name="Name2ExtendedTooltip" id="122"/>
+							<SelectedItemsActionsPanel name="Name2SelectedItemsActionsPanel" id="201"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line14" id="123">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line14ExtendedTooltip" id="124"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration14" id="125">
+							<Picture>
+								<xr:Ref>StdPicture.Back</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration14ContextMenu" id="126"/>
+							<ExtendedTooltip name="Decoration14ExtendedTooltip" id="127"/>
+						</PictureDecoration>
+						<InputField name="Password1" id="128">
+							<DataPath>Password</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<PasswordMode>true</PasswordMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your password</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="Password1ContextMenu" id="129"/>
+							<ExtendedTooltip name="Password1ExtendedTooltip" id="130"/>
+							<SelectedItemsActionsPanel name="Password1SelectedItemsActionsPanel" id="202"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line15" id="131">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line15ExtendedTooltip" id="132"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration15" id="133">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration15ContextMenu" id="134"/>
+							<ExtendedTooltip name="Decoration15ExtendedTooltip" id="135"/>
+						</PictureDecoration>
+						<InputField name="Email1" id="136">
+							<DataPath>Email</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>Email</SpecialTextInputMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Your e-mail</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="Email1ContextMenu" id="137"/>
+							<ExtendedTooltip name="Email1ExtendedTooltip" id="138"/>
+							<SelectedItemsActionsPanel name="Email1SelectedItemsActionsPanel" id="203"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Line16" id="139">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name line</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<VerticalAlign>Top</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Line16ExtendedTooltip" id="140"/>
+					<ChildItems>
+						<PictureDecoration name="Decoration16" id="141">
+							<Picture>
+								<xr:Ref>StdPicture.CustomExpression</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Decoration16ContextMenu" id="142"/>
+							<ExtendedTooltip name="Decoration16ExtendedTooltip" id="143"/>
+						</PictureDecoration>
+						<InputField name="URL1" id="144">
+							<DataPath>URL</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<SpecialTextInputMode>URL</SpecialTextInputMode>
+							<InputHint>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>URL</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="URL1ContextMenu" id="145"/>
+							<ExtendedTooltip name="URL1ExtendedTooltip" id="146"/>
+							<SelectedItemsActionsPanel name="URL1SelectedItemsActionsPanel" id="204"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group4" id="147">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Label + Input</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group4ExtendedTooltip" id="148"/>
+			<ChildItems>
+				<InputField name="Name3" id="149">
+					<DataPath>Name</DataPath>
+					<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+					<TitleLocation>Top</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your name</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Name3ContextMenu" id="150"/>
+					<ExtendedTooltip name="Name3ExtendedTooltip" id="151"/>
+					<SelectedItemsActionsPanel name="Name3SelectedItemsActionsPanel" id="205"/>
+				</InputField>
+				<InputField name="Password2" id="152">
+					<DataPath>Password</DataPath>
+					<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+					<TitleLocation>Top</TitleLocation>
+					<PasswordMode>true</PasswordMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your password</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Password2ContextMenu" id="153"/>
+					<ExtendedTooltip name="Password2ExtendedTooltip" id="154"/>
+					<SelectedItemsActionsPanel name="Password2SelectedItemsActionsPanel" id="206"/>
+				</InputField>
+				<InputField name="Email2" id="155">
+					<DataPath>Email</DataPath>
+					<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+					<TitleLocation>Top</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<SpecialTextInputMode>Email</SpecialTextInputMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your e-mail</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Email2ContextMenu" id="156"/>
+					<ExtendedTooltip name="Email2ExtendedTooltip" id="157"/>
+					<SelectedItemsActionsPanel name="Email2SelectedItemsActionsPanel" id="207"/>
+				</InputField>
+				<InputField name="URL2" id="158">
+					<DataPath>URL</DataPath>
+					<TitleFont ref="style:FieldTitleFont" kind="StyleItem"/>
+					<TitleLocation>Top</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<SpecialTextInputMode>URL</SpecialTextInputMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>URL</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="URL2ContextMenu" id="159"/>
+					<ExtendedTooltip name="URL2ExtendedTooltip" id="160"/>
+					<SelectedItemsActionsPanel name="URL2SelectedItemsActionsPanel" id="208"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group5" id="161">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Only Inputs</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group5ExtendedTooltip" id="162"/>
+			<ChildItems>
+				<InputField name="Name4" id="163">
+					<DataPath>Name</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your name</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Name4ContextMenu" id="164"/>
+					<ExtendedTooltip name="Name4ExtendedTooltip" id="165"/>
+					<SelectedItemsActionsPanel name="Name4SelectedItemsActionsPanel" id="209"/>
+				</InputField>
+				<InputField name="Password3" id="166">
+					<DataPath>Password</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<PasswordMode>true</PasswordMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your password</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Password3ContextMenu" id="167"/>
+					<ExtendedTooltip name="Password3ExtendedTooltip" id="168"/>
+					<SelectedItemsActionsPanel name="Password3SelectedItemsActionsPanel" id="210"/>
+				</InputField>
+				<InputField name="Email3" id="169">
+					<DataPath>Email</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<SpecialTextInputMode>Email</SpecialTextInputMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your e-mail</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Email3ContextMenu" id="170"/>
+					<ExtendedTooltip name="Email3ExtendedTooltip" id="171"/>
+					<SelectedItemsActionsPanel name="Email3SelectedItemsActionsPanel" id="211"/>
+				</InputField>
+				<InputField name="URL3" id="172">
+					<DataPath>URL</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<SpecialTextInputMode>URL</SpecialTextInputMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>URL</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="URL3ContextMenu" id="173"/>
+					<ExtendedTooltip name="URL3ExtendedTooltip" id="174"/>
+					<SelectedItemsActionsPanel name="URL3SelectedItemsActionsPanel" id="212"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group6" id="175">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Inputs + Additional Info</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group6ExtendedTooltip" id="176"/>
+			<ChildItems>
+				<InputField name="Name5" id="177">
+					<DataPath>Name</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full name please</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your name</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Name5ContextMenu" id="178"/>
+					<ExtendedTooltip name="Name5ExtendedTooltip" id="179">
+						<Font ref="style:FieldTitleFont" kind="StyleItem"/>
+					</ExtendedTooltip>
+					<SelectedItemsActionsPanel name="Name5SelectedItemsActionsPanel" id="213"/>
+				</InputField>
+				<InputField name="Password4" id="180">
+					<DataPath>Password</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>8 characters minimum</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<PasswordMode>true</PasswordMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your password</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Password4ContextMenu" id="181"/>
+					<ExtendedTooltip name="Password4ExtendedTooltip" id="182">
+						<Font ref="style:FieldTitleFont" kind="StyleItem"/>
+					</ExtendedTooltip>
+					<SelectedItemsActionsPanel name="Password4SelectedItemsActionsPanel" id="214"/>
+				</InputField>
+				<InputField name="Email4" id="183">
+					<DataPath>Email</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your work e-mail address</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<SpecialTextInputMode>Email</SpecialTextInputMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your e-mail</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="Email4ContextMenu" id="184"/>
+					<ExtendedTooltip name="Email4ExtendedTooltip" id="185">
+						<Font ref="style:FieldTitleFont" kind="StyleItem"/>
+					</ExtendedTooltip>
+					<SelectedItemsActionsPanel name="Email4SelectedItemsActionsPanel" id="215"/>
+				</InputField>
+				<InputField name="URL4" id="186">
+					<DataPath>URL</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Your website URL</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<SpecialTextInputMode>URL</SpecialTextInputMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>URL</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="URL4ContextMenu" id="187"/>
+					<ExtendedTooltip name="URL4ExtendedTooltip" id="188">
+						<Font ref="style:FieldTitleFont" kind="StyleItem"/>
+					</ExtendedTooltip>
+					<SelectedItemsActionsPanel name="URL4SelectedItemsActionsPanel" id="216"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Inputs</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Name" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Name</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Password" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Email" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>E-mail</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="URL" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>URL</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Phone" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Phone</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Gender" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Gender</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Birthday" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Birthday</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="DateTime" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Date time</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Range" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Textarea" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Textarea</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Resizable" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Resizable</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

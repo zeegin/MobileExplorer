@@ -1,0 +1,1901 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Group1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Simple List</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group1ExtendedTooltip" id="2"/>
+			<ChildItems>
+				<LabelDecoration name="ListItem1" id="5">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Item 1</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ListItem1ContextMenu" id="6"/>
+					<ExtendedTooltip name="ListItem1ExtendedTooltip" id="7"/>
+				</LabelDecoration>
+				<LabelDecoration name="Hr1" id="8">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Font ref="style:BlockFont" kind="StyleItem"/>
+					<Border width="1">
+						<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+					</Border>
+					<ContextMenu name="Hr1ContextMenu" id="9"/>
+					<ExtendedTooltip name="Hr1ExtendedTooltip" id="10"/>
+				</LabelDecoration>
+				<LabelDecoration name="Decoration3" id="11">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Item 2</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Decoration3ContextMenu" id="12"/>
+					<ExtendedTooltip name="Decoration3ExtendedTooltip" id="13"/>
+				</LabelDecoration>
+				<LabelDecoration name="Hr2" id="14">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Font ref="style:BlockFont" kind="StyleItem"/>
+					<Border width="1">
+						<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+					</Border>
+					<ContextMenu name="Hr2ContextMenu" id="15"/>
+					<ExtendedTooltip name="Hr2ExtendedTooltip" id="16"/>
+				</LabelDecoration>
+				<LabelDecoration name="Decoration4" id="17">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Item 3</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Decoration4ContextMenu" id="18"/>
+					<ExtendedTooltip name="Decoration4ExtendedTooltip" id="19"/>
+				</LabelDecoration>
+				<LabelDecoration name="Spacer1" id="26">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Font ref="style:BlockFont" kind="StyleItem"/>
+					<ContextMenu name="Spacer1ContextMenu" id="27"/>
+					<ExtendedTooltip name="Spacer1ExtendedTooltip" id="28"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group2" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Strong List</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group2ExtendedTooltip" id="30"/>
+			<ChildItems>
+				<UsualGroup name="Strong1" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Strong1</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:BlockFont" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Strong1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<BackColor>style:BlockBackColor</BackColor>
+					<ExtendedTooltip name="Strong1ExtendedTooltip" id="32"/>
+					<ChildItems>
+						<LabelDecoration name="ListItem2" id="33">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Item 1</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ListItem2ContextMenu" id="34"/>
+							<ExtendedTooltip name="ListItem2ExtendedTooltip" id="35"/>
+						</LabelDecoration>
+						<LabelDecoration name="Hr3" id="36">
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font ref="style:BlockFont" kind="StyleItem"/>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+							</Border>
+							<ContextMenu name="Hr3ContextMenu" id="37"/>
+							<ExtendedTooltip name="Hr3ExtendedTooltip" id="38"/>
+						</LabelDecoration>
+						<LabelDecoration name="Decoration5" id="39">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Item 2</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Decoration5ContextMenu" id="40"/>
+							<ExtendedTooltip name="Decoration5ExtendedTooltip" id="41"/>
+						</LabelDecoration>
+						<LabelDecoration name="Hr4" id="42">
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font ref="style:BlockFont" kind="StyleItem"/>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+							</Border>
+							<ContextMenu name="Hr4ContextMenu" id="43"/>
+							<ExtendedTooltip name="Hr4ExtendedTooltip" id="44"/>
+						</LabelDecoration>
+						<LabelDecoration name="Decoration6" id="45">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Item 3</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Decoration6ContextMenu" id="46"/>
+							<ExtendedTooltip name="Decoration6ExtendedTooltip" id="47"/>
+						</LabelDecoration>
+						<LabelDecoration name="Spacer2" id="54">
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font ref="style:BlockFont" kind="StyleItem"/>
+							<ContextMenu name="Spacer2ContextMenu" id="55"/>
+							<ExtendedTooltip name="Spacer2ExtendedTooltip" id="56"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group3" id="57">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Simple Links List (Buttons + Icons)</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group3ExtendedTooltip" id="58"/>
+			<ChildItems>
+				<Button name="Action1" id="59">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Action</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ChevronRight</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link 1</v8:content>
+						</v8:item>
+					</Title>
+					<PictureLocation>Right</PictureLocation>
+					<ExtendedTooltip name="Action1ExtendedTooltip" id="60"/>
+				</Button>
+				<Button name="Action2" id="61">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Action</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ChevronRight</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link 2</v8:content>
+						</v8:item>
+					</Title>
+					<PictureLocation>Right</PictureLocation>
+					<ExtendedTooltip name="Action2ExtendedTooltip" id="62"/>
+				</Button>
+				<Button name="Action3" id="63">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Action</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ChevronRight</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link 3</v8:content>
+						</v8:item>
+					</Title>
+					<PictureLocation>Right</PictureLocation>
+					<ExtendedTooltip name="Action3ExtendedTooltip" id="64"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group4" id="103">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Simple Links List (ValueTable)</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group4ExtendedTooltip" id="104"/>
+			<ChildItems>
+				<Table name="Data1" id="105">
+					<Representation>List</Representation>
+					<ReadOnly>true</ReadOnly>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<Header>false</Header>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Data1</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="Data1ContextMenu" id="106"/>
+					<AutoCommandBar name="Data1CommandBar" id="107">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="Data1ExtendedTooltip" id="108"/>
+					<SearchStringAddition name="Data1SearchString" id="109">
+						<AdditionSource>
+							<Item>Data1</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data1SearchStringContextMenu" id="110"/>
+						<ExtendedTooltip name="Data1SearchStringExtendedTooltip" id="111"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Data1ViewStatus" id="112">
+						<AdditionSource>
+							<Item>Data1</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data1ViewStatusContextMenu" id="113"/>
+						<ExtendedTooltip name="Data1ViewStatusExtendedTooltip" id="114"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Data1SearchControl" id="115">
+						<AdditionSource>
+							<Item>Data1</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Data1SearchControlContextMenu" id="116"/>
+						<ExtendedTooltip name="Data1SearchControlExtendedTooltip" id="117"/>
+					</SearchControlAddition>
+					<SelectedItemsActionsPanel name="Data1SelectedItemsActionsPanel" id="286"/>
+					<Events>
+						<Event name="Selection">Data1Selection</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="Data1Title" id="118">
+							<DataPath>Data1.Title</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="Data1TitleContextMenu" id="119"/>
+							<ExtendedTooltip name="Data1TitleExtendedTooltip" id="120"/>
+							<SelectedItemsActionsPanel name="Data1TitleSelectedItemsActionsPanel" id="287"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group13" id="219">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Simple Links List (Pages)</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group13ExtendedTooltip" id="220"/>
+			<ChildItems>
+				<Pages name="Pages" id="221">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pages</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pages</v8:content>
+						</v8:item>
+					</ToolTip>
+					<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
+					<ExtendedTooltip name="PagesExtendedTooltip" id="222"/>
+					<ChildItems>
+						<Page name="Page1" id="223">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tab 1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>StdPicture.CreateFolder</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<Group>Vertical</Group>
+							<ScrollOnCompress>false</ScrollOnCompress>
+							<ExtendedTooltip name="Page1ExtendedTooltip" id="224"/>
+							<ChildItems>
+								<LabelDecoration name="Decoration1" id="225">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Tab 1 content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus?
+
+Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.
+
+Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque, est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet unde delectus a maiores nihil dolores? Natus, perferendis.
+
+Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+
+Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia explicabo, unde aliquid impedit! Adipisci!
+
+Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro accusantium, officiis veniam nostrum cum cumque impedit.
+
+Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Decoration1ContextMenu" id="226"/>
+									<ExtendedTooltip name="Decoration1ExtendedTooltip" id="227"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+						<Page name="Page2" id="228">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tab 2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>StdPicture.DataCompositionGroupFieldsDisabled</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<Group>Vertical</Group>
+							<ScrollOnCompress>false</ScrollOnCompress>
+							<ExtendedTooltip name="Page2ExtendedTooltip" id="229"/>
+							<ChildItems>
+								<LabelDecoration name="Decoration2" id="230">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Tab 2 content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus?
+
+Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.
+
+Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque, est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet unde delectus a maiores nihil dolores? Natus, perferendis.
+
+Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+
+Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia explicabo, unde aliquid impedit! Adipisci!
+
+Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro accusantium, officiis veniam nostrum cum cumque impedit.
+
+Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Decoration2ContextMenu" id="231"/>
+									<ExtendedTooltip name="Decoration2ExtendedTooltip" id="232"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+						<Page name="Page3" id="233">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tab 3</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<Group>Vertical</Group>
+							<ScrollOnCompress>false</ScrollOnCompress>
+							<ExtendedTooltip name="Page3ExtendedTooltip" id="234"/>
+							<ChildItems>
+								<LabelDecoration name="Decoration7" id="235">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Tab 3 content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus?
+
+Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.
+
+Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque, est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet unde delectus a maiores nihil dolores? Natus, perferendis.
+
+Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+
+Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia explicabo, unde aliquid impedit! Adipisci!
+
+Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro accusantium, officiis veniam nostrum cum cumque impedit.
+
+Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Decoration7ContextMenu" id="236"/>
+									<ExtendedTooltip name="Decoration7ExtendedTooltip" id="237"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group15" id="269">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Simple Links List (Pop-up)</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group15ExtendedTooltip" id="270"/>
+			<ChildItems>
+				<UsualGroup name="PopUp1" id="271">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link 1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pop up1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<Behavior>PopUp</Behavior>
+					<Representation>WeakSeparation</Representation>
+					<ExtendedTooltip name="PopUp1ExtendedTooltip" id="272"/>
+					<ChildItems>
+						<LabelDecoration name="Decoration8" id="277">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tab 1 content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus?
+
+Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.
+
+Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque, est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet unde delectus a maiores nihil dolores? Natus, perferendis.
+
+Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+
+Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia explicabo, unde aliquid impedit! Adipisci!
+
+Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro accusantium, officiis veniam nostrum cum cumque impedit.
+
+Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Decoration8ContextMenu" id="278"/>
+							<ExtendedTooltip name="Decoration8ExtendedTooltip" id="279"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="PopUp2" id="273">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link 2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pop up2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<Behavior>PopUp</Behavior>
+					<Representation>WeakSeparation</Representation>
+					<ExtendedTooltip name="PopUp2ExtendedTooltip" id="274"/>
+					<ChildItems>
+						<LabelDecoration name="Decoration9" id="280">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tab 2 content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus?
+
+Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.
+
+Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque, est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet unde delectus a maiores nihil dolores? Natus, perferendis.
+
+Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+
+Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia explicabo, unde aliquid impedit! Adipisci!
+
+Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro accusantium, officiis veniam nostrum cum cumque impedit.
+
+Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Decoration9ContextMenu" id="281"/>
+							<ExtendedTooltip name="Decoration9ExtendedTooltip" id="282"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="PopUp3" id="275">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link 3</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pop up1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<Behavior>PopUp</Behavior>
+					<Representation>WeakSeparation</Representation>
+					<ExtendedTooltip name="PopUp3ExtendedTooltip" id="276"/>
+					<ChildItems>
+						<LabelDecoration name="Decoration10" id="283">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tab 3 content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus?
+
+Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.
+
+Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque, est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet unde delectus a maiores nihil dolores? Natus, perferendis.
+
+Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+
+Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia explicabo, unde aliquid impedit! Adipisci!
+
+Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro accusantium, officiis veniam nostrum cum cumque impedit.
+
+Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Decoration10ContextMenu" id="284"/>
+							<ExtendedTooltip name="Decoration10ExtendedTooltip" id="285"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group5" id="89">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data list, with icons</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group5</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group5ExtendedTooltip" id="90"/>
+			<ChildItems>
+				<LabelDecoration name="DontKnow" id="100">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>???</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="DontKnowContextMenu" id="101"/>
+					<ExtendedTooltip name="DontKnowExtendedTooltip" id="102"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group6" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Links</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group6</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group6ExtendedTooltip" id="66"/>
+			<ChildItems>
+				<Table name="Data3" id="67">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<Header>false</Header>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Data3</DataPath>
+					<RowPictureDataPath>Data3.Icon</RowPictureDataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="Data3ContextMenu" id="68"/>
+					<AutoCommandBar name="Data3CommandBar" id="69">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="Data3ExtendedTooltip" id="70"/>
+					<SearchStringAddition name="Data3SearchString" id="71">
+						<AdditionSource>
+							<Item>Data3</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data3SearchStringContextMenu" id="72"/>
+						<ExtendedTooltip name="Data3SearchStringExtendedTooltip" id="73"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Data3ViewStatus" id="74">
+						<AdditionSource>
+							<Item>Data3</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data3ViewStatusContextMenu" id="75"/>
+						<ExtendedTooltip name="Data3ViewStatusExtendedTooltip" id="76"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Data3SearchControl" id="77">
+						<AdditionSource>
+							<Item>Data3</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Data3SearchControlContextMenu" id="78"/>
+						<ExtendedTooltip name="Data3SearchControlExtendedTooltip" id="79"/>
+					</SearchControlAddition>
+					<SelectedItemsActionsPanel name="Data3SelectedItemsActionsPanel" id="289"/>
+					<Events>
+						<Event name="Selection">Data1Selection</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="Data3Title" id="94">
+							<DataPath>Data3.Title</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="Data3TitleContextMenu" id="95"/>
+							<ExtendedTooltip name="Data3TitleExtendedTooltip" id="96"/>
+							<SelectedItemsActionsPanel name="Data3TitleSelectedItemsActionsPanel" id="290"/>
+						</InputField>
+						<InputField name="Data3After" id="97">
+							<DataPath>Data3.After</DataPath>
+							<HorizontalAlign>Right</HorizontalAlign>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<Width>5</Width>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<TextColor>#8C8C8C</TextColor>
+							<ContextMenu name="Data3AfterContextMenu" id="98"/>
+							<ExtendedTooltip name="Data3AfterExtendedTooltip" id="99"/>
+							<SelectedItemsActionsPanel name="Data3AfterSelectedItemsActionsPanel" id="291"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group7" id="121">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Links, Header, Footer</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group7ExtendedTooltip" id="122"/>
+			<ChildItems>
+				<Table name="Data4" id="123">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<Header>false</Header>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Data4</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="Data4ContextMenu" id="124"/>
+					<AutoCommandBar name="Data4CommandBar" id="125">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="Data4ExtendedTooltip" id="126"/>
+					<SearchStringAddition name="Data4SearchString" id="127">
+						<AdditionSource>
+							<Item>Data4</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data4SearchStringContextMenu" id="128"/>
+						<ExtendedTooltip name="Data4SearchStringExtendedTooltip" id="129"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Data4ViewStatus" id="130">
+						<AdditionSource>
+							<Item>Data4</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data4ViewStatusContextMenu" id="131"/>
+						<ExtendedTooltip name="Data4ViewStatusExtendedTooltip" id="132"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Data4SearchControl" id="133">
+						<AdditionSource>
+							<Item>Data4</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Data4SearchControlContextMenu" id="134"/>
+						<ExtendedTooltip name="Data4SearchControlExtendedTooltip" id="135"/>
+					</SearchControlAddition>
+					<SelectedItemsActionsPanel name="Data4SelectedItemsActionsPanel" id="293"/>
+					<Events>
+						<Event name="Selection">Data1Selection</Event>
+					</Events>
+					<ChildItems>
+						<PictureField name="Data4Icon" id="136">
+							<DataPath>Data4.Icon</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="Data4IconContextMenu" id="137"/>
+							<ExtendedTooltip name="Data4IconExtendedTooltip" id="138"/>
+							<SelectedItemsActionsPanel name="Data4IconSelectedItemsActionsPanel" id="294"/>
+						</PictureField>
+						<ColumnGroup name="Data4GroupTitle" id="154">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data4 group title</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data4 group title</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="Data4GroupTitleExtendedTooltip" id="155"/>
+							<ChildItems>
+								<InputField name="Data4Header" id="148">
+									<DataPath>Data4.Header</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<Font ref="style:NormalTextFont" height="6" kind="StyleItem" scale="100"/>
+									<ContextMenu name="Data4HeaderContextMenu" id="149"/>
+									<ExtendedTooltip name="Data4HeaderExtendedTooltip" id="150"/>
+									<SelectedItemsActionsPanel name="Data4HeaderSelectedItemsActionsPanel" id="295"/>
+								</InputField>
+								<InputField name="Data4Title" id="139">
+									<DataPath>Data4.Title</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Data4TitleContextMenu" id="140"/>
+									<ExtendedTooltip name="Data4TitleExtendedTooltip" id="141"/>
+									<SelectedItemsActionsPanel name="Data4TitleSelectedItemsActionsPanel" id="296"/>
+								</InputField>
+								<InputField name="Data4Footer" id="145">
+									<DataPath>Data4.Footer</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<TextColor>#8C8C8C</TextColor>
+									<Font ref="style:NormalTextFont" height="6" kind="StyleItem" scale="100"/>
+									<ContextMenu name="Data4FooterContextMenu" id="146"/>
+									<ExtendedTooltip name="Data4FooterExtendedTooltip" id="147"/>
+									<SelectedItemsActionsPanel name="Data4FooterSelectedItemsActionsPanel" id="297"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<InputField name="Data4After" id="142">
+							<DataPath>Data4.After</DataPath>
+							<HorizontalAlign>Right</HorizontalAlign>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<Width>4</Width>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<TextColor>#8C8C8C</TextColor>
+							<ContextMenu name="Data4AfterContextMenu" id="143"/>
+							<ExtendedTooltip name="Data4AfterExtendedTooltip" id="144"/>
+							<SelectedItemsActionsPanel name="Data4AfterSelectedItemsActionsPanel" id="298"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group8" id="156">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Links, no icons (with groups)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group5</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group8ExtendedTooltip" id="157"/>
+			<ChildItems>
+				<LabelDecoration name="DontKnow1" id="158">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>???</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="DontKnow1ContextMenu" id="159"/>
+					<ExtendedTooltip name="DontKnow1ExtendedTooltip" id="160"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group9" id="161">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grouped with sticky titles</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group5</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group9ExtendedTooltip" id="162"/>
+			<ChildItems>
+				<LabelDecoration name="DontKnow2" id="163">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>???</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="DontKnow2ContextMenu" id="164"/>
+					<ExtendedTooltip name="DontKnow2ExtendedTooltip" id="165"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group10" id="166">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mixed and nested</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group5</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group10ExtendedTooltip" id="167"/>
+			<ChildItems>
+				<LabelDecoration name="DontKnow3" id="168">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>???</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="DontKnow3ContextMenu" id="169"/>
+					<ExtendedTooltip name="DontKnow3ExtendedTooltip" id="170"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group11" id="171">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tablet inset</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group5</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group11ExtendedTooltip" id="172"/>
+			<ChildItems>
+				<LabelDecoration name="DontKnow4" id="173">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>???</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="DontKnow4ContextMenu" id="174"/>
+					<ExtendedTooltip name="DontKnow4ExtendedTooltip" id="175"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group12" id="176">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Songs</v8:content>
+				</v8:item>
+			</Title>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group12ExtendedTooltip" id="177"/>
+			<ChildItems>
+				<Table name="Data5" id="178">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<Header>false</Header>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Data5</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="Data5ContextMenu" id="179">
+						<ChildItems>
+							<Button name="Data5ContextMenuMore" id="217">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.More</CommandName>
+								<ExtendedTooltip name="Data5ContextMenuMoreExtendedTooltip" id="218"/>
+							</Button>
+						</ChildItems>
+					</ContextMenu>
+					<AutoCommandBar name="Data5CommandBar" id="180">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="Data5ExtendedTooltip" id="181"/>
+					<SearchStringAddition name="Data5SearchString" id="182">
+						<AdditionSource>
+							<Item>Data5</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data5SearchStringContextMenu" id="183"/>
+						<ExtendedTooltip name="Data5SearchStringExtendedTooltip" id="184"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Data5ViewStatus" id="185">
+						<AdditionSource>
+							<Item>Data5</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Data5ViewStatusContextMenu" id="186"/>
+						<ExtendedTooltip name="Data5ViewStatusExtendedTooltip" id="187"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Data5SearchControl" id="188">
+						<AdditionSource>
+							<Item>Data5</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Data5SearchControlContextMenu" id="189"/>
+						<ExtendedTooltip name="Data5SearchControlExtendedTooltip" id="190"/>
+					</SearchControlAddition>
+					<SelectedItemsActionsPanel name="Data5SelectedItemsActionsPanel" id="300"/>
+					<Events>
+						<Event name="Selection">Data1Selection</Event>
+					</Events>
+					<ChildItems>
+						<PictureField name="Data5Image" id="191">
+							<DataPath>Data5.Image</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<Width>7</Width>
+							<Height>4</Height>
+							<ContextMenu name="Data5ImageContextMenu" id="192"/>
+							<ExtendedTooltip name="Data5ImageExtendedTooltip" id="193"/>
+							<SelectedItemsActionsPanel name="Data5ImageSelectedItemsActionsPanel" id="301"/>
+						</PictureField>
+						<ColumnGroup name="Data5GroupContent" id="209">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data5 group content</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data5 group content</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="Data5GroupContentExtendedTooltip" id="210"/>
+							<ChildItems>
+								<ColumnGroup name="Data5GroupTitle" id="211">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data5 group title</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data5 group title</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ExtendedTooltip name="Data5GroupTitleExtendedTooltip" id="212"/>
+									<ChildItems>
+										<InputField name="Data5Title" id="194">
+											<DataPath>Data5.Title</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="Data5TitleContextMenu" id="195"/>
+											<ExtendedTooltip name="Data5TitleExtendedTooltip" id="196"/>
+											<SelectedItemsActionsPanel name="Data5TitleSelectedItemsActionsPanel" id="302"/>
+										</InputField>
+										<InputField name="Data5After" id="197">
+											<DataPath>Data5.After</DataPath>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
+											<Width>3</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<TextColor>#8C8C8C</TextColor>
+											<ContextMenu name="Data5AfterContextMenu" id="198"/>
+											<ExtendedTooltip name="Data5AfterExtendedTooltip" id="199"/>
+											<SelectedItemsActionsPanel name="Data5AfterSelectedItemsActionsPanel" id="303"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="Data5Subtitle" id="200">
+									<DataPath>Data5.Subtitle</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="Data5SubtitleContextMenu" id="201"/>
+									<ExtendedTooltip name="Data5SubtitleExtendedTooltip" id="202"/>
+									<SelectedItemsActionsPanel name="Data5SubtitleSelectedItemsActionsPanel" id="304"/>
+								</InputField>
+								<InputField name="Data5Text" id="203">
+									<DataPath>Data5.Text</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<TextColor>#8C8C8C</TextColor>
+									<ContextMenu name="Data5TextContextMenu" id="204"/>
+									<ExtendedTooltip name="Data5TextExtendedTooltip" id="205"/>
+									<SelectedItemsActionsPanel name="Data5TextSelectedItemsActionsPanel" id="305"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Group14" id="238">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mail App (DynamicList)</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="Group14ExtendedTooltip" id="239"/>
+			<ChildItems>
+				<Table name="DL1" id="240">
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<HeightControlVariant>UseContentHeight</HeightControlVariant>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<Header>false</Header>
+					<VerticalStretch>false</VerticalStretch>
+					<EnableStartDrag>true</EnableStartDrag>
+					<DataPath>DL1</DataPath>
+					<RowPictureDataPath>~DL1.DefaultPicture</RowPictureDataPath>
+					<CommandSet>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>ListSettings</ExcludedCommand>
+						<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>Refresh</ExcludedCommand>
+						<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+					</CommandSet>
+					<SearchStringLocation>None</SearchStringLocation>
+					<RefreshRequest>PullFromTopOrBottom</RefreshRequest>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+					<ContextMenu name="DL1ContextMenu" id="241"/>
+					<AutoCommandBar name="DL1CommandBar" id="242"/>
+					<ExtendedTooltip name="DL1ExtendedTooltip" id="243"/>
+					<SearchStringAddition name="DL1SearchString" id="244">
+						<AdditionSource>
+							<Item>DL1</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="DL1SearchStringContextMenu" id="245"/>
+						<ExtendedTooltip name="DL1SearchStringExtendedTooltip" id="246"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="DL1ViewStatus" id="247">
+						<AdditionSource>
+							<Item>DL1</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="DL1ViewStatusContextMenu" id="248"/>
+						<ExtendedTooltip name="DL1ViewStatusExtendedTooltip" id="249"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="DL1SearchControl" id="250">
+						<AdditionSource>
+							<Item>DL1</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="DL1SearchControlContextMenu" id="251"/>
+						<ExtendedTooltip name="DL1SearchControlExtendedTooltip" id="252"/>
+					</SearchControlAddition>
+					<SelectedItemsActionsPanel name="DL1SelectedItemsActionsPanel" id="307"/>
+					<ChildItems>
+						<ColumnGroup name="DL1GroupContent" id="267">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>D l1 group content</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>D l1 group content</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="DL1GroupContentExtendedTooltip" id="268"/>
+							<ChildItems>
+								<ColumnGroup name="DL1GroupTitle" id="265">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>D l1 group title</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>D l1 group title</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ExtendedTooltip name="DL1GroupTitleExtendedTooltip" id="266"/>
+									<ChildItems>
+										<LabelField name="DL1Title" id="262">
+											<DataPath>DL1.Title</DataPath>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="DL1TitleContextMenu" id="263"/>
+											<ExtendedTooltip name="DL1TitleExtendedTooltip" id="264"/>
+											<SelectedItemsActionsPanel name="DL1TitleSelectedItemsActionsPanel" id="308"/>
+										</LabelField>
+										<LabelField name="DL1After" id="253">
+											<DataPath>DL1.After</DataPath>
+											<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+											<Width>5</Width>
+											<TextColor>#8A8A8A</TextColor>
+											<ContextMenu name="DL1AfterContextMenu" id="254"/>
+											<ExtendedTooltip name="DL1AfterExtendedTooltip" id="255"/>
+											<SelectedItemsActionsPanel name="DL1AfterSelectedItemsActionsPanel" id="309"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<LabelField name="DL1Subtitle" id="256">
+									<DataPath>DL1.Subtitle</DataPath>
+									<ContextMenu name="DL1SubtitleContextMenu" id="257"/>
+									<ExtendedTooltip name="DL1SubtitleExtendedTooltip" id="258"/>
+									<SelectedItemsActionsPanel name="DL1SubtitleSelectedItemsActionsPanel" id="310"/>
+								</LabelField>
+								<LabelField name="DL1Text" id="259">
+									<DataPath>DL1.Text</DataPath>
+									<Height>2</Height>
+									<TextColor>#8A8A8A</TextColor>
+									<ContextMenu name="DL1TextContextMenu" id="260"/>
+									<ExtendedTooltip name="DL1TextExtendedTooltip" id="261"/>
+									<SelectedItemsActionsPanel name="DL1TextSelectedItemsActionsPanel" id="311"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ListView</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Data2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Icon" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Icon</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Title" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="After" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Link" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Data3" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Icon" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Icon</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Title" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="After" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Link" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Data1" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Title" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Link" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Data4" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Icon" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Icon</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Title" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="After" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Footer" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Footer</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Header" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Header</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Link" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Data5" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Image" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Image</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Title" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="After" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Subtitle" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subtitle</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Text" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Text</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Link" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Link</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="DL1" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>DL1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>SELECT
+	"Facebook" AS Title,
+	"17:14" AS After,
+	"New messages from John Doe" AS Subtitle,
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus." AS Text
+
+UNION
+
+SELECT
+	"John Doe (via Twitter)",
+	"17:11",
+	"John Doe (@_johndoe) mentioned you on Twitter!",
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+
+UNION
+
+SELECT
+	"Facebook",
+	"16:48",
+	"New messages from John Doe",
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+
+UNION
+
+SELECT
+	"John Doe (via Twitter)",
+	"15:32",
+	"John Doe (@_johndoe) mentioned you on Twitter!",
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>After</dcssch:dataPath>
+					<dcssch:field>After</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Title</dcssch:dataPath>
+					<dcssch:field>Title</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Subtitle</dcssch:dataPath>
+					<dcssch:field>Subtitle</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subtitle</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Text</dcssch:dataPath>
+					<dcssch:field>Text</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Text</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Action" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Action</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Action</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="More" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>More</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>More</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+</Form>

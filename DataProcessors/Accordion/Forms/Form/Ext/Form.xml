@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="GroupListViewAccordion" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List View Accordion</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group list view accordion</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="GroupListViewAccordionExtendedTooltip" id="2"/>
+			<ChildItems>
+				<UsualGroup name="GroupAccordionContent1" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lorem Ipsum</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group accordion content1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<Representation>WeakSeparation</Representation>
+					<ExtendedTooltip name="GroupAccordionContent1ExtendedTooltip" id="4"/>
+					<ChildItems>
+						<UsualGroup name="Group1" id="36">
+							<TitleFont ref="style:BlockFont" kind="StyleItem"/>
+							<Group>HorizontalIfPossible</Group>
+							<Representation>None</Representation>
+							<BackColor>style:BlockBackColor</BackColor>
+							<ExtendedTooltip name="Group1ExtendedTooltip" id="37"/>
+							<ChildItems>
+								<LabelDecoration name="DecorationBlock1" id="5">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum id neque nec commodo. Sed vel justo at turpis laoreet pellentesque quis sed lorem. Integer semper arcu nibh, non mollis arcu tempor vel. Sed pharetra tortor vitae est rhoncus, vel congue dui sollicitudin. Donec eu arcu dignissim felis viverra blandit suscipit eget ipsum.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="DecorationBlock1ContextMenu" id="6"/>
+									<ExtendedTooltip name="DecorationBlock1ExtendedTooltip" id="7"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="GroupAccordionContent2" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Nested List</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group accordion content2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<Representation>WeakSeparation</Representation>
+					<ExtendedTooltip name="GroupAccordionContent2ExtendedTooltip" id="9"/>
+					<ChildItems>
+						<UsualGroup name="Group2" id="38">
+							<TitleFont ref="style:BlockFont" kind="StyleItem"/>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>style:BlockBackColor</BackColor>
+							<ExtendedTooltip name="Group2ExtendedTooltip" id="39"/>
+							<ChildItems>
+								<LabelDecoration name="ListItem1" id="10">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Item 1</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ListItem1ContextMenu" id="11"/>
+									<ExtendedTooltip name="ListItem1ExtendedTooltip" id="12"/>
+								</LabelDecoration>
+								<LabelDecoration name="Hr1" id="22">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:BlockFont" kind="StyleItem"/>
+									<Border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+									</Border>
+									<ContextMenu name="Hr1ContextMenu" id="23"/>
+									<ExtendedTooltip name="Hr1ExtendedTooltip" id="24"/>
+								</LabelDecoration>
+								<LabelDecoration name="Decoration3" id="13">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Item 2</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Decoration3ContextMenu" id="14"/>
+									<ExtendedTooltip name="Decoration3ExtendedTooltip" id="15"/>
+								</LabelDecoration>
+								<LabelDecoration name="Hr2" id="25">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:BlockFont" kind="StyleItem"/>
+									<Border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+									</Border>
+									<ContextMenu name="Hr2ContextMenu" id="26"/>
+									<ExtendedTooltip name="Hr2ExtendedTooltip" id="27"/>
+								</LabelDecoration>
+								<LabelDecoration name="Decoration4" id="16">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Item 3</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Decoration4ContextMenu" id="17"/>
+									<ExtendedTooltip name="Decoration4ExtendedTooltip" id="18"/>
+								</LabelDecoration>
+								<LabelDecoration name="Hr3" id="28">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:BlockFont" kind="StyleItem"/>
+									<Border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
+									</Border>
+									<ContextMenu name="Hr3ContextMenu" id="29"/>
+									<ExtendedTooltip name="Hr3ExtendedTooltip" id="30"/>
+								</LabelDecoration>
+								<LabelDecoration name="Decoration5" id="19">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Item 4</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Decoration5ContextMenu" id="20"/>
+									<ExtendedTooltip name="Decoration5ExtendedTooltip" id="21"/>
+								</LabelDecoration>
+								<LabelDecoration name="Spacer1" id="42">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:BlockFont" kind="StyleItem"/>
+									<ContextMenu name="Spacer1ContextMenu" id="43"/>
+									<ExtendedTooltip name="Spacer1ExtendedTooltip" id="44"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="GroupAccordionContent3" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Integer semper</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group accordion content</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<Representation>WeakSeparation</Representation>
+					<ExtendedTooltip name="GroupAccordionContent3ExtendedTooltip" id="32"/>
+					<ChildItems>
+						<UsualGroup name="Group3" id="40">
+							<TitleFont ref="style:BlockFont" kind="StyleItem"/>
+							<Group>HorizontalIfPossible</Group>
+							<Representation>None</Representation>
+							<BackColor>style:BlockBackColor</BackColor>
+							<ExtendedTooltip name="Group3ExtendedTooltip" id="41"/>
+							<ChildItems>
+								<LabelDecoration name="DecorationBlock2" id="33">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum id neque nec commodo. Sed vel justo at turpis laoreet pellentesque quis sed lorem. Integer semper arcu nibh, non mollis arcu tempor vel. Sed pharetra tortor vitae est rhoncus, vel congue dui sollicitudin. Donec eu arcu dignissim felis viverra blandit suscipit eget ipsum.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="DecorationBlock2ContextMenu" id="34"/>
+									<ExtendedTooltip name="DecorationBlock2ExtendedTooltip" id="35"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+</Form>
